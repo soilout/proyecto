@@ -6,6 +6,7 @@ const app = express()
 app.set('port', config.PORT)
 
 //middlewares
+app.use(express.static('public'))
 app.use(express.json())
 app.use(express.urlencoded({extended:false}))
 
