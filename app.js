@@ -13,6 +13,9 @@ app.use(express.urlencoded({extended:false}))
 //Rutas
 app.use('/api/postulante', postulante) //Donde ingresan los datos del formulario. No lo llame subscripcion por si acaso
 
+app.use('/', (req, res)=>{
+    res.send('.public/index.html')
+})
 
 const server = app.listen(app.get('port'),()=>{
     console.log('Servidor escuchando en puerto: ', app.get('port'))
