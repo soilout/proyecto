@@ -6,7 +6,7 @@
     "dni": "", 
     "fechaDeNacimiento": "", 
     "email":"", 
-    "situacion":"",
+    "situacion":"",//Valido: 'propietario', 'inquilino','ocupante', 'otro'
     "domicilio": {
         "calle": "", 
         "altura": "", 
@@ -61,7 +61,7 @@
     },
     "email":"", 
     },
-    "situacion":"" 
+    "situacion":"" 'propietario', 'inquilino', 'otro'
 }
 //Persona Juridica Consorcios
 {

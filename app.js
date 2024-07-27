@@ -14,7 +14,7 @@ app.use(express.urlencoded({extended:false}))
 app.use('/api/postulante', postulante) //Donde ingresan los datos del formulario. No lo llame subscripcion por si acaso
 
 app.use('/', (req, res)=>{
-    res.send('.public/index.html')
+    res.view('.public/index.html')
 })
 
 const server = app.listen(app.get('port'),()=>{
