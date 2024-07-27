@@ -1,0 +1,105 @@
+//Persona Fisica
+{   
+    "estado":"personaFisica", 
+    "nombre": "", 
+    "apellido": "", 
+    "dni": "", 
+    "fechaDeNacimiento": "", 
+    "email":"", 
+    "situacion":"",
+    "domicilio": {
+        "calle": "", 
+        "altura": "", 
+        "piso": "", 
+        "departamento": "", 
+        "cuerpo": "", 
+        "unidadFuncional": "", 
+        "codigoPostal": "", 
+        "provincia": "", 
+        "localidad": "" 
+    },
+    "telefono": {
+        "fijo": "",
+        "celular": ""
+    }
+}
+
+//Persona Juridica Consorcistas
+{
+    "estado":"consorcista", 
+    "razonSocial":"", 
+    "domicilioReal":{
+        "calle":"", 
+        "altura":"", 
+        "piso":"", 
+        "departamento":"", 
+        "cuerpo":"",  
+        "unidadFuncional":"", 
+        "codigoPostal":"", 
+        "provincia":"", 
+        "localidad":"" 
+    },
+    "representanteLegal":{
+        "nombre":"", 
+        "apellido":"", 
+        "dni":"", 
+        "fechaDeNacimiento":"" 
+        "domicilio":{
+            "calle":"", 
+            "altura":"", 
+            "piso":"", 
+            "departamento":"", 
+            "cuerpo":"", 
+            "unidadFuncional":"", 
+            "codigoPostal":"", 
+            "provincia":"", 
+            "localidad":"" 
+        },
+    "telefono": {
+        "fijo": "",
+        "celular": ""
+    },
+    "email":"", 
+    },
+    "situacion":"" 
+}
+//Persona Juridica Consorcios
+{
+    "estado":"consorcio", 
+    "domicilioReal":{
+        "calle":"", 
+        "altura":"", 
+        "piso":"", 
+        "departamento":"", 
+        "cuerpo":"",  
+        "unidadFuncional":"", 
+        "codigoPostal":"", 
+        "provincia":"", 
+        "localidad":"" 
+    },
+    "fechaConstitucion":"", 
+    "uf":"",
+    "administrador":{ 
+        "nombre":"", 
+        "apellido":"", 
+        "dni":"", 
+        "numeroRegistro":"", 
+        "telefono": { 
+            "fijo": "",
+            "celular": ""
+        },
+        "email":"" 
+    },
+    "email":"", 
+    "representante":{
+        "nombre":"", 
+        "apellido":"", 
+        "dni":"", 
+        "numeroRegistro":"", 
+        "telefono": {
+            "fijo": "",
+            "celular": ""
+        },
+        "email":"" 
+    }
+}
