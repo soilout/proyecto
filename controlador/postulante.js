@@ -18,8 +18,8 @@ const postPostulante = async (req, res)=>{
         }
         catch(error){
             console.log('error en getPostulante joi: '+ error)
-            res.send(false)
-            
+            res.send(error.details)
+            return false
         }
         await db.collection('postulantes').insertOne(newPost)
         res.send(newPost)

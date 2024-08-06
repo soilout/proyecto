@@ -1,105 +1,104 @@
 //Persona Fisica
 {   
     "estado":"personaFisica", 
-    "nombre": "", 
-    "apellido": "", 
-    "dni": "", 
-    "fechaDeNacimiento": "", 
-    "email":"", 
-    "situacion":"",//Valido: 'propietario', 'inquilino','ocupante', 'otro'
+    "nombre": "mat", 
+    "apellido": "gux", 
+    "dni": "12345678", 
+    "fechaDeNacimiento": "01/01/2000", 
+    "email":"m@gmail.com", 
+    "situacion":"propietario",//Valido: 'propietario', 'inquilino','ocupante', 'otro'
     "domicilio": {
-        "calle": "", 
-        "altura": "", 
-        "piso": "", 
-        "departamento": "", 
-        "cuerpo": "", 
-        "unidadFuncional": "", 
-        "codigoPostal": "", 
-        "provincia": "", 
-        "localidad": "" 
+        "calle": "evergreen", 
+        "altura": "123", 
+        "piso": "0", 
+        "departamento": "0", 
+        "cuerpo": "0", 
+        "unidadFuncional": "0", 
+        "codigoPostal": "1234", 
+        "provincia": "cordoba", 
+        "localidad": "algo" 
     },
     "telefono": {
-        "fijo": "",
-        "celular": ""
+        "fijo": "1234567890",
+        "celular": "1230456789"
     }
 }
 
 //Persona Juridica Consorcistas
 {
     "estado":"consorcista", 
-    "razonSocial":"", 
+    "razonSocial":"ayayay", 
     "domicilioReal":{
-        "calle":"", 
-        "altura":"", 
-        "piso":"", 
-        "departamento":"", 
-        "cuerpo":"",  
-        "unidadFuncional":"", 
-        "codigoPostal":"", 
-        "provincia":"", 
-        "localidad":"" 
+        "calle":"evergreen", 
+        "altura":"123", 
+        "piso":"0", 
+        "departamento":"0", 
+        "cuerpo":"0",  
+        "unidadFuncional":"0", 
+        "codigoPostal":"12345", 
+        "provincia":"cordoba", 
+        "localidad":"localidad" 
     },
     "representanteLegal":{
-        "nombre":"", 
-        "apellido":"", 
-        "dni":"", 
-        "fechaDeNacimiento":"" 
+        "nombre":"homer", 
+        "apellido":"simposn", 
+        "dni":"12345678", 
+        "fechaDeNacimiento":"01/01/2000" ,
         "domicilio":{
-            "calle":"", 
-            "altura":"", 
-            "piso":"", 
-            "departamento":"", 
-            "cuerpo":"", 
-            "unidadFuncional":"", 
-            "codigoPostal":"", 
-            "provincia":"", 
-            "localidad":"" 
+            "calle":"evergreen", 
+            "altura":"1234", 
+            "piso":"0", 
+            "departamento":"0", 
+            "cuerpo":"0", 
+            "unidadFuncional":"0", 
+            "codigoPostal":"1234", 
+            "provincia":"corrientes", 
+            "localidad":"algo" 
         },
     "telefono": {
-        "fijo": "",
-        "celular": ""
+        "fijo": "1234567890",
+        "celular": "1234567890"
     },
-    "email":"", 
+    "email":"m@gmail.com" 
     },
-    "situacion":"" 'propietario', 'inquilino', 'otro'
+    "situacion":"propietario"
 }
 //Persona Juridica Consorcios
 {
     "estado":"consorcio", 
     "domicilioReal":{
-        "calle":"", 
-        "altura":"", 
-        "piso":"", 
-        "departamento":"", 
-        "cuerpo":"",  
-        "unidadFuncional":"", 
-        "codigoPostal":"", 
-        "provincia":"", 
-        "localidad":"" 
+        "calle":"evergreen", 
+        "altura":"1234", 
+        "piso":"0", 
+        "departamento":"0", 
+        "cuerpo":"0",  
+        "unidadFuncional":"0", 
+        "codigoPostal":"1234", 
+        "provincia":"corrientes", 
+        "localidad":"algo" 
     },
-    "fechaConstitucion":"", 
-    "uf":"",
+    "fechaConstitucion":"01/01/2000", 
+    "uf":"150",
     "administrador":{ 
-        "nombre":"", 
-        "apellido":"", 
-        "dni":"", 
-        "numeroRegistro":"", 
+        "nombre":"homer", 
+        "apellido":"simpson", 
+        "dni":"12345678", 
+        "numeroRegistro":"12345", 
         "telefono": { 
-            "fijo": "",
-            "celular": ""
+            "fijo": "1234567890",
+            "celular": "1234567890"
         },
-        "email":"" 
+        "email":"m@gmail.com" 
     },
-    "email":"", 
     "representante":{
-        "nombre":"", 
-        "apellido":"", 
-        "dni":"", 
-        "numeroRegistro":"", 
+        "nombre":"homero", 
+        "apellido":"simson", 
+        "dni":"12345678", 
+        "numeroRegistro":"12345", 
         "telefono": {
-            "fijo": "",
-            "celular": ""
+            "fijo": "1234567890",
+            "celular": "1234567890"
         },
-        "email":"" 
+        "email":"m@gmail.com" 
     }
 }
